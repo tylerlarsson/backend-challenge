@@ -1,2 +1,6 @@
-# Careers
-Career Opportunities at Griffin Group Global
+# Griffin Group Global Current Openings
+
+* [Fullstack Developer][fullstack]
+
+[fullstack]: current/fullstack.md
+
