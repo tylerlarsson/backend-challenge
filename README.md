@@ -59,6 +59,10 @@ Location:
 In a server-side microservices approach, there are many areas that need to be developed when creating an API. While implementing the minimum requirements, please feel to implement one or more items in these areas. Please do not feel limited to these areas if you would like to add your take on microservice development.
 
 - Error handling
+  - Which HTTP Codes should be returned and under which circumstances?
+  - Should the user of the API get more information than an HTTP status code?
+  - Do integration tests reflect these error conditions?
+  - etc.
 - Debug statements
 - [TDD]
 - Service security
@@ -79,9 +83,9 @@ In a server-side microservices approach, there are many areas that need to be de
 
 # Getting Started
 1. Fork this [repository][repository].
-2. Clone the fork to your personal machine.
-3. Start coding.
-4. Commit changes to your fork as you see fit.
+1. Clone the fork to your personal machine.
+1. Start coding.
+1. Commit changes to your fork as you see fit.
 
 # Submission
 
