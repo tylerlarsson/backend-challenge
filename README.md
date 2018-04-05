@@ -119,6 +119,6 @@ This project is [MIT licensed][mitlicense].
 [eslint]:https://eslint.org/
 [airbnb-eslint]:https://www.npmjs.com/package/eslint-config-airbnb
 [mocha]:https://mochajs.org/
-[repository]:https://github.com/GriffinGroupGlobal/frontend-challenge
+[repository]:https://github.com/GriffinGroupGlobal/backend-challenge
 [mitlicense]:https://en.wikipedia.org/wiki/MIT_License
 [commonmark]:https://spec.commonmark.org/
