@@ -47,7 +47,7 @@ Location:
 
 ```js
 {
-  "postal": "", // The postal address line; contains the house number, apartment number, street name, etc.
+  "street": "", // The postal address line; contains the house number, apartment number, street name, etc.
   "city": "", // Name of the city, town, village or other community or delivery center.
   "state": "", // Sub-division (e.g. state, province, or territory) of the country; abbreviations are accepted; ISO codes are not encouraged since this is a globalized field.
   "zip": "", // A postal code designating a specific region, district, or zone as defined by the United States Postal Service (USPS).
