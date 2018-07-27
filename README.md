@@ -9,6 +9,8 @@ If you are successful, then we will set up an in-person interview and use this c
 # The Challenge
 Griffin Group Global uses a JavaScript-based stack currently, which means [Node.js][nodejs] on the backend. We develop microservices using Node. The challenge would be to write a microservice to read data froma  database and return it using a REST based resource.
 
+Ideally, this would take a mid-level developer up to two hours to complete the minimum requirements.
+
 ## Minimum Server-side Challenge Requirements
 We would like a minimum server-side capability. These are:
 - A read route that returns a specific object when a specific id is specified.
