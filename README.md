@@ -11,9 +11,7 @@ Griffin Group Global uses a JavaScript-based stack currently, which means [Node.
 
 ## Minimum Server-side Challenge Requirements
 We would like a minimum server-side capability. These are:
-- A read route that returns more than one object
 - A read route that returns a specific object when a specific id is specified.
-- A writeup of how to use your code or better yet, a [Mocha][mocha]-based test that shows the functionality working
 
 The basic format for the read route would conform to:
 
@@ -58,6 +56,13 @@ Location:
 ## Where to concentrate your effort
 In a server-side microservices approach, there are many areas that need to be developed when creating an API. While implementing the minimum requirements, please feel to implement one or more items in these areas. Please do not feel limited to these areas if you would like to add your take on microservice development.
 
+- Other routes
+  - a read or search route that returns more than object
+  - a create route
+  - a delete route
+  - an update route using something like [jsonpatch](http://jsonpatch.com/)
+- Testing
+  - a [Mocha][mocha]-based test that shows the functionality working
 - Error handling
   - Which HTTP Codes should be returned and under which circumstances?
   - Should the user of the API get more information than an HTTP status code?
