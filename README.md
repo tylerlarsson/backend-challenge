@@ -7,7 +7,7 @@ We appreciate that any coding challenge represents an investment of your time. W
 If you are successful, then we will set up an in-person interview and use this code as the starting point in our conversation.
 
 # The Challenge
-Griffin Group Global uses a JavaScript-based stack currently, which means [Node.js][nodejs] on the backend. We develop microservices using Node. The challenge would be to write a microservice to Create, Read, Update, Delete and Search a specific data model. This represents a sizeable amount of work and we would not expect you to write the entire microservice. However, you are free to implement as much as you want.
+Griffin Group Global uses a JavaScript-based stack currently, which means [Node.js][nodejs] on the backend. We develop microservices using Node. The challenge would be to write a microservice to read data froma  database and return it using a REST based resource.
 
 ## Minimum Server-side Challenge Requirements
 We would like a minimum server-side capability. These are:
