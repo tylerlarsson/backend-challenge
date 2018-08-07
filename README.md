@@ -56,8 +56,7 @@ Location:
 ```
 
 ## Where to concentrate your effort
-In a server-side microservices approach, there are many areas that need to be developed when creating an API. While implementing the minimum requirements, please feel to implement one or more items in these areas. Please do not feel limited to these areas if you would like to add your take on microservice development.
-
+In a server-side microservices approach, there are many areas that need to be developed when creating an API. Working software is always top priority, however, so meet the minimum requirements. Should you want to go above and beyond the minimum requirements, please feel free to add to your submittal either via code or via documentation in [common mark][commonmark] compliant documentation.
 - Other routes
   - a read or search route that returns more than object
   - a create route
