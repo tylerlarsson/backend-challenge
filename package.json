@@ -4,8 +4,7 @@
   "description": "A coding challenge for backend services",
   "main": "dist",
   "scripts": {
-    "test-lint-js": "docker pull g3dev/lintjs:latest && docker container run -v `pwd`:/home/node/src g3dev/lintjs:latest",
-    "test-lint-md": "docker pull g3dev/lintmd:latest && docker container run -v `pwd`:/home/node/src g3dev/lintmd:latest"
+    "test-lint-js": "npx eslint src/**/*.js test/**/*.js"
   },
   "repository": {
     "type": "git",

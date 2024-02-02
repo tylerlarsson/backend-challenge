@@ -1,13 +1,13 @@
-# Griffin Group Global Back End Development Challenge
+# EstateSpace Back End Development Challenge
 
-Hi! Thank you for your interest in [Griffin Group Global][g3website]. Our evaluation processes begins with an open-ended coding challenge that we will discuss during your interview. There is not one correct way to approach this challenge. Rather, we would like to see your approach and your creativity in solving the problem.
+Hi! Thank you for your interest in [EstateSpace][eswebsite]. Our evaluation processes begins with an open-ended coding challenge that we will discuss during your interview. There is not one correct way to approach this challenge. Rather, we would like to see your approach and your creativity in solving the problem.
 
 We appreciate that any coding challenge represents an investment of your time. We hope you see the value in having a code sample that is relatable to both of us for the interview. Should you be unsuccessful, you should feel free to use the code you developed for this challenge in any way that you would like.
 
 If you are successful, then we will set up an in-person interview and use this code as the starting point in our conversation.
 
 # The Challenge
-Griffin Group Global uses a JavaScript-based stack currently, which means [Node.js][nodejs] on the backend. We develop microservices using Node. The challenge would be to write a microservice to read data froma  database and return it using a REST based resource.
+EstateSpace uses a JavaScript-based stack currently, which means [Node.js][nodejs] on the backend. We develop microservices using Node. The challenge would be to write a microservice to read data from a database and return it using a REST based resource.
 
 Ideally, this would take a mid-level developer up to two hours to complete the minimum requirements.
 
@@ -58,7 +58,8 @@ Location:
 ## Where to concentrate your effort
 In a server-side microservices approach, there are many areas that need to be developed when creating an API. Working software is always top priority, however, so meet the minimum requirements. Should you want to go above and beyond the minimum requirements, please feel free to add to your submittal either via code or via documentation in [common mark][commonmark] compliant documentation.
 - Other routes
-  - a read or search route that returns more than object
+  - a read all or search route that returns more than object
+  - a read route that returns one object by id
   - a create route
   - a delete route
   - an update route using something like [jsonpatch](http://jsonpatch.com/)
@@ -69,6 +70,7 @@ In a server-side microservices approach, there are many areas that need to be de
   - Should the user of the API get more information than an HTTP status code?
   - Do integration tests reflect these error conditions?
   - etc.
+- Data Modeling (ie. Mongoose for schema modeling)
 - Debug statements
 - [TDD]
 - Service security
@@ -104,7 +106,7 @@ Do not feel as though you must create a public fork of this repository. You are 
 
 # Evaluations
 
-We realize there are many items to look at when creating a microservice. Please do not feel like like you have to do everything. Please do not feel like you must use Node, albeit that is our primary language platform. If you have less security experience, but more search and database experience, then use that to your advantage in the code you write. Give us a heads up by documenting your code to let us know where and why you concentrated on certain
+We realize there are many items to look at when creating a microservice. Please do not feel like you have to do everything. Please do not feel like you must use Node, albeit that is our primary language platform. If you have less security experience, but more search and database experience, then use that to your advantage in the code you write. Give us a heads up by documenting your code to let us know where and why you concentrated on certain
 items.
 
 As you develop your solution, you may have ideas on other avenues to pursue. Please feel free to include them inline as documented source or as additional [Common Mark][commonmark] compliant notes in your fork.
@@ -116,7 +118,7 @@ We look for readability, good architectural decisions, modularity, and a solid a
 # License
 This project is [MIT licensed][mitlicense].
 
-[g3website]:https://www.griffingroupglobal.com
+[eswebsite]:https://www.estatespace.com
 [git-scm]:https://git-scm.com/
 [github]:https://github.com/
 [nodejs]:https://nodejs.org/en/
